@@ -41,6 +41,6 @@ elseif place_id == 126884695634066 then
     loadstring(game:HttpGet(scripts.."grow%20a%20garden.lua"))()
     lib:Notify('Supported game loading: ' .. info.Name)
 else
-    lib:Notify('Game not supported: ' .. info.Name .. ' if you wanna support this game join the discord copied to your clipboard')
-    setclipboard("https://discord.gg/")
+    lib:Notify('Game not supported: ' .. info.Name .. ' yes')
+    setclipboard("uhh")
 end
